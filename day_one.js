@@ -84,3 +84,13 @@
 
 // What is the purpose of async and await in JavaScript?
    // ----The async and await keywords are used for handling asynchronous operations in a more synchronous-like manner. The async keyword is used to define an asynchronous function, and the await keyword is used to pause the execution of an async function until a promise is fulfilled or rejected.
+   const fetchApidata = async () =>{
+     try {
+        const response = await fetch("https://jsonplaceholder.typicode.com/photos")
+        const data = await response.json();
+        console.log(data)
+     } catch (error) {
+        console.log(error)
+     }
+   }
+   fetchApidata();
