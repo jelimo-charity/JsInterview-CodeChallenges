@@ -66,3 +66,4 @@ console.log(a === y);
 
 // localStorage persists data even after the browser window is closed and is accessible across different browser tabs/windows of the same origin.
 // sessionStorage stores data for a single browser session and is accessible only within the same tab or window.
+ 

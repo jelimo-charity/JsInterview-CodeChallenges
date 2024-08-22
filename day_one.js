@@ -21,8 +21,8 @@
   let age; //------undefined---not assigned a value
   console.log(age)
   let amount = null; //----no value, empty value
-  console.log(amount)
-  // What are closures in JavaScript?
+  console.log(amount)     
+  // What are closures in JavaScript?       
       //----functions that have access to variables from an outer function even after its done executing
       const outerFunc =  () =>{
         let myVar = "heelo closures";
